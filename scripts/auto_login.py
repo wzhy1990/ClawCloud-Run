@@ -30,7 +30,7 @@ TWO_FACTOR_WAIT = int(os.environ.get("TWO_FACTOR_WAIT", "120"))  # 2FA验证 默
 
 
 class Telegram:
-    """Telegram 通知"""
+    """Telegram 通知 """
     
     def __init__(self):
         self.token = os.environ.get('TG_BOT_TOKEN')
